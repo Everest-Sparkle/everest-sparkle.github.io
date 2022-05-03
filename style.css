@@ -8,7 +8,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFFFFF;
+    background: #05003c;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -78,6 +78,18 @@ body::-webkit-scrollbar {
 /* = CUSTOM STYLES
 -------------------------------------------------------------- */
 
+.how-we-help-image {
+    border-radius: 8px;
+}
+
+.rounded-iphone-carousel {
+    border-style: solid;
+    border-color: #ffae00!important;
+    max-width: 480px;
+    border-radius: 8px;
+    border-width: 2px;
+}
+
 .img-style-details {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.08);
@@ -102,23 +114,24 @@ body::-webkit-scrollbar {
 .hero-text-sub {
     font-size: 24px;
     font-weight: 1000;
+    color: #0f6ef4;
 }
 
 .free-consultation-btn {
-    border: 2px solid #ccc;
-    font-weight: 500;
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 20px #ccc;
+    color: black !important;
 }
 
 .free-consultation-btn:hover {
-    background: rgba(255, 255, 255, 1);
-    color: black !important;
+    background: rgba(69, 69, 69, 0.564);
     box-shadow: 0px 0px 20px #ccc;
+    color: rgb(255, 255, 255) !important;
 }
 
 .yellow-text-gradient {
     font-size: 54px;
-    background: linear-gradient(90deg, #ffe760 10%, #ffae00 60%);
+    background: linear-gradient(90deg, #ffffff 10%, #ffffff 60%);
     background-clip: border-box;
     background-clip: text;
     -webkit-background-clip: text;
@@ -133,7 +146,7 @@ body::-webkit-scrollbar {
 
 h2 {
     font-size: 48px;
-    background: linear-gradient(90deg, #8a4bff 0%, #ff00f7 30%);
+    background: linear-gradient(90deg, #ffffff 0%, #ffffff 30%);
     background-clip: border-box;
     background-clip: text;
     -webkit-background-clip: text;
@@ -633,6 +646,29 @@ button {
 /* = Custom Styling
 -------------------------------------------------------------- */
 
+.padded-learn-more {
+    padding: 48px;
+}
+
+.hero-phone-number {
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.blurred-contact {
+    padding: 20px;
+    color: white;
+    margin: 1em;
+    border-radius: 10px;
+    background-color: #83838387;
+    border: 2px solid rgba(255, 255, 255, 0.613);
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.5);
+    /* backdrop filter */
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5x);
+}
+
 h1,
 h2,
 h3,
@@ -795,11 +831,11 @@ a {
 /* Link colour styles */
 
 .ltc-medium-spring-green {
-    color: #00FF9C!important;
+    color: #ffffff!important;
 }
 
 .ltc-medium-spring-green:hover {
-    color: #00cc7d!important;
+    color: #d3ffee!important;
 }
 
 
