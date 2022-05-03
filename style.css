@@ -78,6 +78,15 @@ body::-webkit-scrollbar {
 /* = CUSTOM STYLES
 -------------------------------------------------------------- */
 
+.hero-logo {
+    /* width: 100px; */
+    width: 140px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
 .how-we-help-image {
     border-radius: 8px;
 }
