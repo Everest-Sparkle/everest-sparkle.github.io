@@ -82,7 +82,7 @@ body::-webkit-scrollbar {
     /* width: 100px; */
     width: 140px;
     border-radius: 50%;
-    position: absolute;
+    position: relative;
     top: 30px;
     left: 20px;
 }
